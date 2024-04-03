@@ -1,0 +1,24 @@
+/* Class selector */
+.highlight {
+    background-color: yellow;
+}
+/* Identity selector */
+#header {
+    background-color: lightblue;
+}
+/* Descendant selector */
+#menu li {
+    list-style-type: none;
+}
+/* Child selector */
+#container > p {
+    color: blue;
+}
+/* Attribute selector */
+a[href="https://www.example.com"] {
+    color: red;
+}
+/* Pseudo class selector */
+li:first-child {
+    color: blue;
+}
